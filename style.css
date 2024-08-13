@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  margin:20px;
+}
+
+
+
+
+
+h1 {
+  background-color: aqua;
+  width: 700px;
+  margin:20px auto;
+  border:8px solid blue;
+  padding: 8px 64px 8px 64px;
+}
+
+h2 {
+  border-bottom: 8px dashed orange;
+  width: 700px;
+  margin: 20px auto;
+}
+
+section {
+  margin: 16px;
+}
+
+dt {
+  color: deeppink;
+  margin: 16px 32px 4px 8px;
+}
+
+dd {
+  width: 900px;
+  border-bottom: 4px double plum;
+}
+
+
+li {
+  margin: 16px 32px
+}
+
