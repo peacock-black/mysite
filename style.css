@@ -40,7 +40,7 @@ dt {
 }
 
 dd {
-  width: 900px;
+  /* width: 900px; */
   border-bottom: 4px double plum;
 }
 
@@ -56,3 +56,13 @@ li {
 .box-2 {
   background-color: aqua;
 }
+
+.color1 {
+  color: brown;
+}
+
+.color2 {
+  color: black;
+  border-bottom: none;
+}
+
