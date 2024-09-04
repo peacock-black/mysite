@@ -70,7 +70,21 @@ li {
 color: black;
 }
 
+.color4 {
+  color: darkgreen;
+  font-weight: bold;
+}
+
+.under1 {
+  border-bottom: 4px double blue;
+}
+
+
+button {
+  background-color: aliceblue;
+}
 
 footer {
   text-align: center;
 }
+
