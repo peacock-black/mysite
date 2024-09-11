@@ -130,7 +130,8 @@ button:active {
 
 
 a:hover {
-  background: lightgreen
+  background: lightgreen;
+  font-weight: bold;
 }
 
 footer {
