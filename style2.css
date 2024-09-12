@@ -32,7 +32,7 @@ header {
 
 
 main {
-  background: skyblue;
+  background: lightcyan;
   flex: 1;
   margin: 0 0 0 160px;
 }
@@ -66,5 +66,15 @@ h1 {
 
 h3 {
   text-align: center;
+}
+
+dt {
+  margin: 15px 0 0 20px;
+}
+
+dd {
+  border-bottom: 2px solid palevioletred;
+  margin: 0 0 0 60px;
+  color: darkslategray;
 }
 
