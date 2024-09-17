@@ -69,12 +69,12 @@ h3 {
 }
 
 dt {
-  margin: 32px 32px 16px 120px;
+  margin: 64px 32px 16px 120px;
 }
 
 dd {
   border-bottom: 2px solid palevioletred;
-  margin: 0 0 0 150px;
+  margin:32px 0 0 150px;
   color: darkslategray;
 }
 
