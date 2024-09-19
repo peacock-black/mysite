@@ -69,15 +69,15 @@ h3 {
 }
 
 dt {
-  margin: 46px 32px 16px 120px;
+  margin: 32px 32px 16px 120px;
   font-weight: bold;
 }
 
 dd {
+  width: 1200px;
   border-bottom: 2px solid palevioletred;
   margin:0 0 0 150px;
   color: darkslategray;
 }
-
 
 
