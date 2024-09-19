@@ -70,6 +70,7 @@ h3 {
 
 dt {
   margin: 46px 32px 16px 120px;
+  font-weight: bold;
 }
 
 dd {
@@ -77,4 +78,6 @@ dd {
   margin:0 0 0 150px;
   color: darkslategray;
 }
+
+
 
