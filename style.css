@@ -3,6 +3,7 @@
 body {
   margin: 0;
   margin: 20px;
+  padding: 16px;
   background-color: rgb(236, 232, 221);
   font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto Sans", Meiryo, sans-serif;
 }
@@ -42,6 +43,31 @@ nav {
   display: flex;
   gap: 30px
 }
+
+.anime {
+
+  animation:move-around 4s infinite alternate;
+}
+
+@keyframes move-around {
+  25% {
+    transform: translate(300px, -50px);
+  }
+
+  50% {
+    transform: translate(300px, 0);
+  }
+
+  75% {
+    transform: translate(0, -50px);
+  }
+}
+
+
+
+
+
+
 
 li {
   margin: 16px 32px
@@ -142,5 +168,3 @@ a:hover {
 footer {
   text-align: center;
 }
-
-
