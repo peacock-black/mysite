@@ -198,9 +198,13 @@ a:hover {
   font-weight: bold;
 }
 
-
+section img {
+  margin-top: 2px;
+}
 
 
 footer {
+  padding: 32px 0;
   text-align: center;
+  background: #ccc;
 }

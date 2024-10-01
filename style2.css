@@ -91,10 +91,7 @@ main {
   margin: 0 0 0 160px;
 }
 
-footer {
-  background: silver;
-  text-align: center;
-}
+
 
 a:hover {
   background: #eee;
@@ -132,4 +129,15 @@ dd {
 
 p {
   margin-left: 32px;
+}
+
+section img {
+  margin-top: 2px;
+}
+
+
+footer {
+  padding: 32px 0;
+  text-align: center;
+  background: #ccc;
 }
