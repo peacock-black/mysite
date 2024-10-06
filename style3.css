@@ -34,13 +34,53 @@ header {
 main {
   background: lightpink;
   flex: 1;
+  margin: 0 0 0 160px;
 }
 
 nav {
   background: yellow;
   width: 160px;
+  position: fixed;
+  border-radius: 20%;
 }
 
+
+.message {
+  width: 300px;
+  background: lightblue;
+  color: brown;
+  font-size: large;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  position: fixed;
+  right: 32px;
+  bottom: 32px;
+  animation: popup 10s forwards;
+}
+
+@keyframes popup {
+  0% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+
+  20% {
+    transform: none;
+    opacity: 1;
+  }
+
+  800% {
+    transform: none;
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(10px);
+    opacity: 0;
+    pointer-events: none;
+  }
+}
 
 
 
