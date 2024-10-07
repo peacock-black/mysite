@@ -34,14 +34,17 @@ header {
 main {
   background: lightpink;
   flex: 1;
-  margin: 0 0 0 160px;
+  margin: 0 0 0 240px;
 }
 
 nav {
   background: yellow;
-  width: 160px;
-  position: fixed;
+  width: 240px;
   border-radius: 20%;
+  font-size: small;
+  position: fixed;
+  top: 8px;
+  left: 5px;
 }
 
 
@@ -102,6 +105,13 @@ footer {
   .container {
     display: flex;
   }
+}
+
+
+
+button:hover {
+  font-weight: bold;
+  background: orange;
 }
 
 
