@@ -8,14 +8,17 @@ body {
 
 h1 {
   margin: 0;
+  color: chocolate;
 }
 
 h2 {
   margin: 0;
+  color: blueviolet;
 }
 
 h3 {
-  margin: 0;
+  margin: 0 0 0 64px;
+  color: blue;
 }
 
 p {
@@ -32,9 +35,10 @@ header {
 }
 
 main {
+  padding: 20px;
   background: lightpink;
   flex: 1;
-  margin: 0 0 0 240px;
+  margin: 0 0 0 250px;
 }
 
 nav {
@@ -43,7 +47,7 @@ nav {
   border-radius: 20%;
   font-size: small;
   position: fixed;
-  top: 8px;
+  top: 16px;
   left: 5px;
 }
 
@@ -88,8 +92,11 @@ nav {
 
 
 footer {
-  background: gray;
+  padding: 30px;
+  background: #bbb;
   text-align: center;
+  color: aqua;
+  font-weight: bold;
 }
 
 
@@ -97,7 +104,6 @@ header,
 main,
 nav,
 footer {
-  padding: 16px;
   box-sizing: border-box;
 }
 
@@ -107,9 +113,12 @@ footer {
   }
 }
 
-
+button {
+  margin: 0 0 0 40px;
+}
 
 button:hover {
+  font-size: large;
   font-weight: bold;
   background: orange;
 }
