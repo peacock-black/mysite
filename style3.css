@@ -21,6 +21,11 @@ h3 {
   color: blue;
 }
 
+h4 {
+  margin: 0 0 0 120px;
+  color: rgb(72, 111, 110);
+}
+
 p {
   margin: 0;
 }
@@ -35,8 +40,8 @@ header {
 }
 
 main {
+  background: rgb(240, 213, 218);
   padding: 20px;
-  background: lightpink;
   flex: 1;
   margin: 0 0 0 250px;
 }
@@ -123,4 +128,8 @@ button:hover {
   background: orange;
 }
 
+a:hover {
+  font-size: large;
+  font-weight: bold;
+}
 
