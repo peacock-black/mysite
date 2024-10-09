@@ -26,6 +26,12 @@ h4 {
   color: rgb(72, 111, 110);
 }
 
+h5 {
+  margin: 0 0 0 32px;
+  font-size: 24px;
+  color: rgb(142, 6, 108);
+}
+
 p {
   margin: 0;
 }
