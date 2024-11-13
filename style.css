@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+/* common */
+
 body {
   margin: 0;
   margin: 20px;
@@ -39,10 +41,8 @@ section {
   margin: 16px;
 }
 
-nav {
-  display: flex;
-  gap: 30px
-}
+
+/* 指のアニメ */
 
 .anime {
 
@@ -63,6 +63,8 @@ nav {
   }
 }
 
+/* 消えていく「柱の会制作」 */
+
 .message {
   width: 300px;
   background: silver;
@@ -72,7 +74,7 @@ nav {
   padding: 8px 16px;
   border-radius: 4px;
   position: fixed;
-  right: 32px;
+  right: 100px;
   bottom: 32px;
   animation: popup 10s forwards;
 }
@@ -103,7 +105,15 @@ nav {
 
 
 
+/* nav */
 
+nav {
+  display: flex;
+  gap: 30px
+}
+
+
+/* body 本文 */
 
 li {
   margin: 16px 32px
@@ -126,18 +136,24 @@ dd {
   border-bottom: 4px double plum;
 }
 
+[target] {
+  color: brown;
+}
 
 
-
+/* 岩立沙穂さんブロック */
 .box-1 {
   background-color: pink;
   width: 1000px;
 }
 
+/* 込山榛香さんブロック */
 .box-2 {
   background-color: aqua;
   width: 1000px;
 }
+
+/* VR SQUAREのブロック */
 
 .color1 {
   font-weight: bold;
@@ -156,6 +172,8 @@ dd {
   text-align: center;
 }
 
+/* AKB48劇場カウトダウン企画 */
+
 .color4 {
   color: darkgreen;
   font-weight: bold;
@@ -166,14 +184,15 @@ dd {
   width: 700px;
 }
 
-[target] {
-  color: brown;
-}
 
-
+/* ボタン設定 */
 
 button {
-  background-color: aliceblue;
+  background-color: yellow;
+  font-size: large;
+  position: fixed;
+  right: 32px;
+  bottom: 32px;
 }
 
 button:hover {
@@ -192,16 +211,21 @@ button:active {
   color: brown;
 }
 
+/* aタグ設定 */
 
 a:hover {
   background: lightgreen;
   font-weight: bold;
 }
 
+       /* body 写真 */
 section img {
   margin-top: 2px;
+  object-fit: cover;
 }
 
+
+/* footer */
 
 footer {
   padding: 32px 0;
