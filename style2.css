@@ -45,10 +45,21 @@ header {
 nav {
   background: orange;
   width: 160px;
+  height: 400px;
   position: fixed;
   font-size: x-small;
   border-radius: 20%;
+  overflow: hidden scroll;
 }
+
+nav p {
+  margin-top: 30px;
+  margin-left: 0;
+  text-align: center;
+  font-size: xx-small;
+}
+
+
 
 .message {
   width: 300px;
@@ -134,7 +145,6 @@ dd {
 p {
   margin-left: 32px;
 }
-
 
 
 
