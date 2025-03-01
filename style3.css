@@ -55,13 +55,15 @@ main {
 nav {
   background: yellow;
   width: 240px;
+  height: 500px;
   border-radius: 20%;
   font-size: small;
   position: fixed;
   top: 16px;
   left: 5px;
+  overflow: hidden scroll;
 }
-
+  
 
 .message {
   width: 300px;
