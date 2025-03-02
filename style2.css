@@ -147,6 +147,18 @@ p {
 }
 
 
+/* ボタン設定 */
+
+button {
+  background-color: yellow;
+  font-size: large;
+  position: fixed;
+  right: 32px;
+  bottom: 96px;
+}
+
+
+
 
 footer {
   padding: 32px 0;
