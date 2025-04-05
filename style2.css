@@ -50,6 +50,9 @@ nav {
   font-size: x-small;
   border-radius: 20%;
   overflow: hidden scroll;
+  &:hover {
+    box-shadow: 0 0 10px rgba(230, 7, 7, 0.8);
+  };
 }
 
 nav p {
@@ -110,6 +113,8 @@ main {
 
 a:hover {
   background: #eee;
+  font-size: large;
+  font-weight: bold;
 }
 
 h1 {

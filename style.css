@@ -113,6 +113,8 @@ nav {
 }
 
 
+
+
 /* body 本文 */
 
 li {
@@ -123,6 +125,11 @@ li {
   background: lightpink;
   border-radius: 20px;
   width: 450px;
+
+  &:hover {
+    box-shadow: 0 0 10px rgba(0 0 0 / 0.8);
+  };
+
 }
 
 dt {
@@ -215,10 +222,15 @@ button:active {
 
 a:hover {
   background: lightgreen;
+  font-size: large;
   font-weight: bold;
 }
 
-       /* body 写真 */
+
+
+
+
+/* body 写真 */
 section img {
   margin-top: 2px;
   object-fit: cover;
@@ -227,7 +239,7 @@ section img {
 
 /* 総選挙 */
 .color6 {
-  color:rgb(64, 48, 112)
+  color: rgb(64, 48, 112)
 }
 
 
