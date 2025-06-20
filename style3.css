@@ -144,3 +144,12 @@ a:hover {
   font-weight: bold;
 }
 
+/* ボタン設定 */
+
+#moku {
+  background-color: yellow;
+  font-size: large;
+  position: fixed;
+  right: 32px;
+  bottom: 96px;
+}
