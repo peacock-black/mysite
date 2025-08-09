@@ -227,7 +227,7 @@ a:hover {
 }
 
 
-
+   
 
 
 /* body 写真 */
@@ -251,3 +251,15 @@ footer {
   text-align: center;
   background: #ccc;
 }
+
+details {
+  cursor: pointer;
+}
+
+summary {
+  font-size: 24px;
+  font-weight: bold;
+  color: crimson;
+  background-color: antiquewhite;
+}
+
