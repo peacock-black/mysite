@@ -62,11 +62,12 @@ nav {
   top: 16px;
   left: 5px;
   overflow: hidden scroll;
+
   &:hover {
     box-shadow: 0 0 10px rgb(142, 6, 108);
   }
 }
-  
+
 
 .message {
   width: 300px;
@@ -148,11 +149,22 @@ a:hover {
 
 #moku {
   background-color: yellow;
+  border-radius: 8px;
   font-size: large;
   position: fixed;
   right: 32px;
   bottom: 96px;
+  box-shadow: 0 4px #7a0000;
 }
+
+button:active {
+  box-shadow: 0 1px #7a0000;
+  transform: translateY(3px);
+}
+
+
+
+
 
 details {
   cursor: pointer;
@@ -164,4 +176,3 @@ summary {
   color: rgb(98, 72, 175);
   background-color: antiquewhite;
 }
-

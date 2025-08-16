@@ -158,19 +158,29 @@ p {
 
 #button1 {
   background-color: yellow;
+  border-radius: 8px;
   font-size: large;
   position: fixed;
   right: 32px;
   bottom: 96px;
+  box-shadow: 0 4px #7a0000;
 }
 
 #button2 {
   background-color: rgb(122, 148, 224);
+  border-radius: 8px;
   font-size: large;
   position: fixed;
   right: 100px;
   bottom: 96px;
+  box-shadow: 0 4px #7a0000;
 }
+
+button:active {
+  box-shadow: 0 1px #7a0000;
+  transform: translateY(3px);
+}
+
 
 
 footer {
