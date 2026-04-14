@@ -15,7 +15,7 @@ body {
 
 h1 {
   background-color: aqua;
-  width: 700px;
+  width: 250px;
   margin: 30px auto;
   border: 8px solid blue;
   padding: 8px 64px 8px 64px;
@@ -90,7 +90,7 @@ section {
     opacity: 1;
   }
 
-  800% {
+  80% {
     transform: none;
     opacity: 1;
   }
