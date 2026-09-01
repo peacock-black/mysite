@@ -128,9 +128,23 @@ li {
 
   &:hover {
     box-shadow: 0 0 10px rgba(0 0 0 / 0.8);
+    background: lightgreen;
+    font-size: large;
+    font-weight: bold
   };
 
 }
+
+/* a:hover {
+  background: lightgreen;
+  font-size: large;
+  font-weight: bold;
+} */
+
+
+
+
+
 
 dt {
   color: deeppink;
@@ -222,13 +236,9 @@ button:active {
   color: brown;
 }
 
-/* aタグ設定 */
 
-a:hover {
-  background: lightgreen;
-  font-size: large;
-  font-weight: bold;
-}
+
+
 
 
    
